@@ -693,8 +693,8 @@ function initAdmin() {
             let medalColor = index === 0 ? 'var(--primary-color)' : 'var(--text-secondary)';
             
             html += `
-                <div style="background:#f8fafc; padding:1.5rem; border-radius:8px; display:flex; justify-content:space-between; align-items:center; border-left: 4px solid ${medalColor};">
-                    <span style="font-size:1.2rem; font-weight:800;">${trophy}${candidate}</span>
+                <div style="background:#111827; padding:1.5rem; border-radius:8px; display:flex; justify-content:space-between; align-items:center; border-left: 4px solid ${medalColor}; border: 1px solid #374151; border-left: 4px solid ${medalColor};">
+                    <span style="font-size:1.2rem; font-weight:800; color:#f9fafb;">${trophy}${candidate}</span>
                     <span style="font-size:1.5rem; font-weight:800; color:${medalColor};">${v} Votes</span>
                 </div>
             `;
