@@ -690,7 +690,7 @@ function initAdmin() {
         sortedCandidates.forEach((candidate, index) => {
             let v = votesForPos[candidate] || 0;
             let trophy = index === 0 && v > 0 ? '🏆 ' : '';
-            let medalColor = index === 0 ? 'var(--primary-color)' : 'var(--text-secondary)';
+            let medalColor = index === 0 ? 'var(--accent)' : '#9ca3af';
             
             html += `
                 <div style="background:#111827; padding:1.5rem; border-radius:8px; display:flex; justify-content:space-between; align-items:center; border-left: 4px solid ${medalColor}; border: 1px solid #374151; border-left: 4px solid ${medalColor};">
